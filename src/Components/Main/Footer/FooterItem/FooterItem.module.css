@@ -1,0 +1,28 @@
+.item{
+    cursor:pointer;
+    height: 100%;
+    width: fit-content;
+    background: rgba(101, 126, 193, 0.6);
+    padding: .3rem;
+    margin-right:.5rem ;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.item:hover{
+    background: rgba(131, 160, 229, 0.7);
+    transform: scale(1.05);
+}
+.item>*{
+    flex: 1 1 ;
+}
+.icon{
+    font-size: 4rem;
+    padding: .5rem;
+}
+.city{
+    font-weight: 700;
+    padding: .5rem;
+    font-size: 1.3rem;
+}

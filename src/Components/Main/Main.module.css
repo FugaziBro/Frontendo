@@ -1,0 +1,73 @@
+.mainBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inputBlock{
+    position: relative;
+    flex: 0 0 50%;
+}
+input{
+    width: 100%;
+    color: #333;
+    padding: .7rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+}
+.inputIcon{
+    position: absolute;
+    top:50%;
+    left:100%;
+    transform: translate(-120%,-50%);
+    color: #8d8d8d;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+.inputIcon:hover{
+    color: var(--deadYellow);
+}
+
+.inputItems{
+    display: none;
+    max-height: 190px;
+    overflow-y: auto;
+    position: absolute;
+    top:100%;
+    left: 5%;
+    width: 90%;
+    background: rgba(101, 126, 193, 0.6);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.inputItem{
+    user-select: none;
+    cursor: pointer;
+    padding:.7rem 2rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #eaeaea ;
+}
+.inputItem:hover{
+    background: rgba(138, 161, 222, 0.6);
+}
+.displayBlock{
+    display: block;
+}
+.inputItems::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.inputItems::-webkit-scrollbar-track {
+    background: rgba(54, 67, 102, 0.6);
+    border-bottom-right-radius: 20px;
+}
+
+/* Handle */
+.inputItems::-webkit-scrollbar-thumb {
+    background: rgba(101, 126, 193, 0.9);
+    border-bottom-right-radius: 20px;
+}

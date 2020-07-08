@@ -1,0 +1,10 @@
+.container_mode{
+    cursor: pointer;
+    user-select: none;
+    display: block;
+    width: 3rem;
+    font-size: 3rem;
+}
+.container_mode:hover{
+    color: var(--deadYellow);
+}

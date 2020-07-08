@@ -1,0 +1,35 @@
+:root{
+ --darkBlue:rgba(64, 69, 104, 0.3);
+ --deadYellow: #e7df8f;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    transition: .4s all;
+}
+
+body{
+    background-image: url("img/light.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.body_bac{
+    background-image:url("img/dark.png");
+}
+
+.md_48{
+    font-size: 4.5rem;
+}
+.flex_c{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.f160{
+    font-size: 10rem;
+}

@@ -1,0 +1,25 @@
+.error_block{
+    margin:2rem auto;
+    min-width: 320px;
+    max-width: 450px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border:2px solid var(--darkBlue);
+    background: var(--darkBlue);
+}
+
+.error_logo{
+    padding: 1rem;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+}
+.error_info{
+    flex: 1 0 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+}

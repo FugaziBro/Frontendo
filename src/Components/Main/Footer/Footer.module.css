@@ -1,0 +1,28 @@
+.footerBlock{
+    flex: 0 0 90%;
+    background: rgba(45, 57, 87, 0.8);
+    border:2px solid rgba(75, 95, 149, 0.5);
+    height: 120px;
+    border-radius: 15px;
+    overflow-y: hidden;
+    padding: .5rem;
+}
+.footerWrapper{
+    display: flex;
+    height: 100%;
+}
+.footerBlock::-webkit-scrollbar {
+    width: 5px;
+    height: 15px;
+}
+
+/* Track */
+.footerBlock::-webkit-scrollbar-track {
+    border-radius: 0 0 20px 20px;
+}
+
+/* Handle */
+.footerBlock::-webkit-scrollbar-thumb {
+    background: rgba(101, 126, 193, 0.6);
+    border-radius: 0 0 20px 20px;
+}

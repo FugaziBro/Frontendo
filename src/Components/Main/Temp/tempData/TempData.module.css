@@ -1,0 +1,14 @@
+.tempData{
+    height: 50%;
+    flex: 1 1 33%;
+}
+.tempData:hover{
+    background: rgba(184, 184, 184, 0.3);
+}
+
+.tempData *{
+    font-weight: 500;
+}
+.tempDataWrapper{
+    text-align: center;
+}

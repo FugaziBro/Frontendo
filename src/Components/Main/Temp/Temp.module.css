@@ -1,0 +1,43 @@
+.tempBlock{
+    flex:1 0 100%;
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+}
+.tempItemOne,.tempItemTwo{
+    background:  rgba(45, 57, 87, 0.7);
+    border-radius: 15px;
+    flex: 1;
+    min-height: 320px;
+    margin:.5rem 1.5rem;
+}
+
+.tempItemOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempWrapper{
+    display: flex;
+}
+
+.tempWrapperWrapper>h4{
+    padding-left: .6rem;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.tempWrapperWrapper>h4+h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.tempItemTwo{
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
